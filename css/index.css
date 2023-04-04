@@ -1,0 +1,118 @@
+
+
+header h1::after {
+    content: "(اصدار تجريبي)";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url("photos/background4.webp");
+    background-size: cover;
+  }
+  div.img {
+    background-image: url("photos/2030.jpg");
+    background-size: cover;
+    width: 435px;
+    height: 360px;
+    top: 10px;
+    margin: 124px 20px 12px;
+}
+header {
+    background-color: var(--hcolor);
+    color: var(--bcolor);
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: var(--bcolor);
+    text-decoration: none;
+}
+div.up {
+    height: 536px;
+}
+p.title {
+    left: 33%;
+    margin: auto;
+    position: absolute;
+    font-size: 70px;
+    width: 500px;top: 170px;
+}
+
+section div {
+    text-shadow: 3px 2px 2px #88ccd4;
+    color: var(--hcolor);
+    /* background: #00000063; */
+    border-radius: 14px;
+    border: 18px;
+    padding: 5px;
+    font-size: x-large;
+
+    width: 240px;
+    margin: 0 auto 0 70px;
+}
+@media screen and (min-width: 1200px) { 
+    section {
+        padding: 575px 0px 0px;
+        text-align: center;
+        /* height: 33vh; */
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 1199px) { 
+section {
+    padding: 110px 0px 0px;
+    text-align: center;
+    /* height: 33vh; */
+    margin: 0px;
+}
+}
+#science-clubs div {
+    margin: 0 70px 0 auto;
+}
+section>p {
+    top: 121px;
+    position: absolute;
+    left: 25%;
+    color: var(--blcolor);
+    font-size: 65px;
+}
+section div h2 {
+    font-size: 90px;
+}
+section a {
+    display: block;
+    margin-top: 20px;
+    color: var(--bcolor);
+    background-color: var(--hcolor);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: var(--hcolor);
+    color: var(--bcolor);
+    padding: 20px;
+    text-align: center;
+}
